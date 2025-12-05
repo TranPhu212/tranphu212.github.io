@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="vi">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58723&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/favicon.png" />
+
+<title>Blog Cá Nhân - Lập Trình Mạng</title>
+<meta
+  name="title"
+  content="Blog Cá Nhân - Lập Trình Mạng"
+/>
+<meta
+  name="description"
+  content="
+  
+    Blog Lập Trình
+  
+  
+    Java • JavaScript • Lập trình mạng • Mini project
+  
+  
+
+{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}}
+{{ if not (where site.RegularPages &ldquo;Section&rdquo; &ldquo;blog&rdquo;) }}
+
+  Blog đang được mình chuẩn bị nội dung kỹ lưỡng
+  Sắp tới sẽ có hơn 12 bài chi tiết về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+
+  <meta name="author" content="Trần Phú" />
+
+
+
+
+<meta property="og:url" content="http://localhost:58723/blog/">
+  <meta property="og:site_name" content="Blog Cá Nhân - Lập Trình Mạng">
+  <meta property="og:title" content="Blog Cá Nhân - Lập Trình Mạng">
+  <meta property="og:description" content="Blog Lập TrìnhJava • JavaScript • Lập trình mạng • Mini project{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}} {{ if not (where site.RegularPages “Section” “blog”) }}
+Blog đang được mình chuẩn bị nội dung kỹ lưỡng
+Sắp tới sẽ có hơn 12 bài chi tiết về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:type" content="article">
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blog Cá Nhân - Lập Trình Mạng">
+  <meta name="twitter:description" content="Blog Lập TrìnhJava • JavaScript • Lập trình mạng • Mini project{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}} {{ if not (where site.RegularPages “Section” “blog”) }}
+Blog đang được mình chuẩn bị nội dung kỹ lưỡng
+Sắp tới sẽ có hơn 12 bài chi tiết về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…">
+
+
+
+
+
+  <meta itemprop="name" content="Blog Cá Nhân - Lập Trình Mạng">
+  <meta itemprop="description" content="Blog Lập TrìnhJava • JavaScript • Lập trình mạng • Mini project{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}} {{ if not (where site.RegularPages “Section” “blog”) }}
+Blog đang được mình chuẩn bị nội dung kỹ lưỡng
+Sắp tới sẽ có hơn 12 bài chi tiết về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…">
+  <meta itemprop="wordCount" content="75">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+    
+    
+    
+    <link href="/bundle.min.css" rel="stylesheet" />
+
+    
+
+    
+
+
+    
+</head>
+
+  <body>
+    <header>
+      <header><link rel="stylesheet" href="/css/custom.css">
+
+<div class="custom-header">
+  <a href="/" class="logo-link">
+    <img src="/images/Logo.png" alt="Logo" class="logo-img">
+  </a>
+
+  <div class="nav-menu">
+    
+      
+      
+        
+      
+
+      <a href="/" class="nav-link">
+        Home
+      </a>
+    
+      
+      
+        
+      
+
+      <a href="/blog" class="nav-link current">
+        Blog
+      </a>
+    
+      
+      
+        
+      
+
+      <a href="/about/" class="nav-link">
+        About
+      </a>
+    
+  </div>
+
+  
+    <a href="/index.xml" class="rss-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/>
+      </svg>
+    </a>
+  
+</div></header>
+<div style="height: var(--header-height, 80px);"></div>
+    </header>
+    <main>
+      
+  
+  
+  
+  <content>
+    <div style="text-align:center; padding:80px 20px; max-width:800px; margin:0 auto;">
+  <h1 style="font-size:3.2em; background: linear-gradient(90deg, var(--neon-color), var(--neon-color2)); -webkit-background-clip: text; color: transparent;">
+    Blog Lập Trình
+  </h1>
+  <p style="font-size:1.4em; color:#ccc; margin:30px 0;">
+    Java • JavaScript • Lập trình mạng • Mini project
+  </p>
+  <hr style="max-width:300px; margin:40px auto; border-color: var(--neon-color);">
+</div>
+<p>{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}}
+{{ if not (where site.RegularPages &ldquo;Section&rdquo; &ldquo;blog&rdquo;) }}</p>
+<div style="text-align:center; padding:60px 20px; color:#aaa;">
+  <p style="font-size:1.3em;">Blog đang được mình chuẩn bị nội dung kỹ lưỡng</p>
+  <p>Sắp tới sẽ có <strong>hơn 12 bài chi tiết</strong> về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…</p>
+  <p style="margin-top:30px;"><em>Quay lại sau vài ngày nhé!</em></p>
+</div>
+{{ end }}
+  </content>
+  
+
+    </main>
+    <footer>
+      
+
+      
+  <span>© 2024 Trần Phú</span>
+
+
+
+    </footer>
+
+    
+</body>
+</html>

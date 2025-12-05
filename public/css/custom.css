@@ -1,0 +1,179 @@
+:root {
+  --neon-color: #00f0ff;
+  --neon-color2: #ff0ff0;
+  --header-height: 90px;
+}
+
+/* ====================== HEADER ====================== */
+.custom-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--header-height);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(120deg,
+    rgba(0, 240, 255, 0.1),
+    rgba(255, 15, 240, 0.12),
+    rgba(0, 240, 255, 0.1));
+  background-size: 300% 300%;
+  animation: neonWave 10s ease-in-out infinite;
+}
+
+@keyframes neonWave {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ====================== LOGO – TO BẰNG NÚT ====================== */
+.logo-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 84px;
+  margin-right: auto;
+  overflow: hidden;                    /* tránh bị tràn khi quay */
+}
+
+.logo-img {
+  height: calc(var(--header-height) - 20px);
+  width: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 22px;
+  transition: all .6s cubic-bezier(0.34, 1.56, 0.64, 1); /* bounce mượt */
+  filter: drop-shadow(0 0 16px var(--neon-color));
+  backface-visibility: hidden;         /* chống răng cưa khi quay */
+}
+
+/* HOVER: QUAY TRÒN LIÊN TỤC + GLOW MẠNH */
+.logo-img:hover {
+  animation: spinGlow 2.5s linear infinite;
+  filter: drop-shadow(0 0 40px var(--neon-color2));
+  transform: scale(1.12);
+}
+
+@keyframes spinGlow {
+  0%   { transform: rotate(0deg) scale(1.12); }
+  100% { transform: rotate(360deg) scale(1.12); }
+}
+
+/* ====================== MENU NÚT ====================== */
+.nav-menu {
+  display: flex;
+  gap: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 0 20px;
+}
+
+.nav-link {
+  height: 100%;
+  min-width: 180px;
+  padding: 0 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b8f8ff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all .5s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  margin: 0 8px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  top: 0; left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.3), transparent);
+  transition: .8s;
+}
+.nav-link:hover::after { left: 150%; }
+
+.nav-link.current {
+  color: white !important;
+  background: linear-gradient(135deg, var(--neon-color), var(--neon-color2));
+  box-shadow: 0 0 30px var(--neon-color), 0 0 60px var(--neon-color2), inset 0 0 30px rgba(255,255,255,.6);
+  transform: translateY(-6px);
+  animation: neonPulse 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonPulse {
+  from { box-shadow: 0 0 30px var(--neon-color), 0 0 60px var(--neon-color2); }
+  to   { box-shadow: 0 0 50px var(--neon-color), 0 0 90px var(--neon-color2); }
+}
+
+.nav-link:hover:not(.current) {
+  color: white;
+  background: rgba(0, 240, 255, 0.25);
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.7);
+  transform: translateY(-5px);
+}
+
+.nav-link.current:hover {
+  transform: translateY(-8px) scale(1.06);
+  box-shadow: 0 0 50px var(--neon-color), 0 0 100px var(--neon-color2);
+}
+
+/* ====================== RSS – ICON TO BẰNG NÚT ====================== */
+.rss-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 84px;                     /* nhỏ hơn logo và nút chữ → cân đối */
+  margin-left: auto;
+  border-radius: 18px;
+  transition: all .5s ease;
+}
+
+.rss-link svg {
+  width: 34px;                           /* icon nhỏ gọn, đẹp mắt */
+  height: 34px;
+  fill: #b8f8ff;
+  transition: all .5s ease;
+}
+
+.rss-link:hover {
+  background: rgba(255, 15, 240, 0.25);
+  transform: translateY(-4px);
+  border-radius: 20px;
+}
+
+.rss-link:hover svg {
+  fill: white;
+  filter: drop-shadow(0 0 20px var(--neon-color2));
+  transform: scale(1.35) rotate(360deg);
+}
+
+/* ====================== RESPONSIVE ====================== */
+@media (max-width: 1100px) {
+  .rss-link { padding: 0 36px; }
+  .rss-link svg { width: 32px; height: 32px; }
+}
+
+@media (max-width: 768px) {
+  .rss-link { padding: 0 28px; }
+  .rss-link svg { width: 30px; height: 30px; }
+}
+
+@media (max-width: 480px) {
+  .rss-link { padding: 0 20px; }
+  .rss-link svg { width: 28px; height: 28px; }
+}

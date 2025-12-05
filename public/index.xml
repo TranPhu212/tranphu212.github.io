@@ -2,13 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Cá Nhân - Lập Trình Mạng</title>
-    <link>https://tranphu212.github.io/</link>
+    <link>http://localhost:58723/</link>
     <description>Recent content on Blog Cá Nhân - Lập Trình Mạng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi-VN</language>
     <managingEditor>phutd0212@gmail.com (Trần Phú)</managingEditor>
     <webMaster>phutd0212@gmail.com (Trần Phú)</webMaster>
     <copyright>© 2024 Trần Phú</copyright>
-    <atom:link href="https://tranphu212.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58723/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:58723/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>phutd0212@gmail.com (Trần Phú)</author>
+      <guid>http://localhost:58723/about/</guid>
+      <description>&lt;div style=&#34;max-width:800px; margin:0 auto; line-height:1.7;&#34;&gt;
+&lt;h2 id=&#34;trần-phú--lập-trình-viên-java--javascript&#34;&gt;Trần Phú – Lập trình viên Java &amp;amp; JavaScript&lt;/h2&gt;
+&lt;h3 id=&#34;thông-tin-cá-nhân&#34;&gt;Thông tin cá nhân&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Họ tên&lt;/strong&gt;: Trần Phú&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Năm sinh&lt;/strong&gt;: 2004&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:tranphu0212@gmail.com&#34;&gt;tranphu0212@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/TranPhu212&#34;&gt;github.com/TranPhu212&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kỹ-năng-chính&#34;&gt;Kỹ năng chính&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Lĩnh vực&lt;/th&gt;
+          &lt;th&gt;Công cụ / Công nghệ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ngôn ngữ lập trình&lt;/td&gt;
+          &lt;td&gt;Java • JavaScript • C# (Unity)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Lập trình mạng&lt;/td&gt;
+          &lt;td&gt;Socket • InetAddress • URL • Socket • HTTP&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Đa luồng Java&lt;/td&gt;
+          &lt;td&gt;Thread • ExecutorService • Deadlock/Livelock&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Frontend&lt;/td&gt;
+          &lt;td&gt;HTML • CSS • JavaScript • DOM • Fetch API&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Công cụ&lt;/td&gt;
+          &lt;td&gt;Git • GitHub • VS Code • IntelliJ&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;kinh-nghiệm-thực-tế&#34;&gt;Kinh nghiệm thực tế&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết script Unity: Camera follow, Death screen, UI logic&lt;/li&gt;
+&lt;li&gt;Xây dựng ứng dụng chat đơn giản bằng Java Socket&lt;/li&gt;
+&lt;li&gt;Tự học và hoàn thành các khóa Java Core, Java Network, JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mục-tiêu-2025-2026&#34;&gt;Mục tiêu 2025-2026&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hoàn thiện portfolio bằng blog cá nhân này&lt;/li&gt;
+&lt;li&gt;Đóng góp ít nhất 1 project open-source về mạng&lt;/li&gt;
+&lt;li&gt;Xin thực tập / fresher Java Backend hoặc Fullstack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<div style="max-width:800px; margin:0 auto; line-height:1.7;">
+<h2 id="trần-phú--lập-trình-viên-java--javascript">Trần Phú – Lập trình viên Java &amp; JavaScript</h2>
+<h3 id="thông-tin-cá-nhân">Thông tin cá nhân</h3>
+<ul>
+<li><strong>Họ tên</strong>: Trần Phú</li>
+<li><strong>Năm sinh</strong>: 2004</li>
+<li><strong>Email</strong>: <a href="mailto:tranphu0212@gmail.com">tranphu0212@gmail.com</a></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/TranPhu212">github.com/TranPhu212</a></li>
+</ul>
+<h3 id="kỹ-năng-chính">Kỹ năng chính</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Lĩnh vực</th>
+          <th>Công cụ / Công nghệ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Ngôn ngữ lập trình</td>
+          <td>Java • JavaScript • C# (Unity)</td>
+      </tr>
+      <tr>
+          <td>Lập trình mạng</td>
+          <td>Socket • InetAddress • URL • Socket • HTTP</td>
+      </tr>
+      <tr>
+          <td>Đa luồng Java</td>
+          <td>Thread • ExecutorService • Deadlock/Livelock</td>
+      </tr>
+      <tr>
+          <td>Frontend</td>
+          <td>HTML • CSS • JavaScript • DOM • Fetch API</td>
+      </tr>
+      <tr>
+          <td>Công cụ</td>
+          <td>Git • GitHub • VS Code • IntelliJ</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="kinh-nghiệm-thực-tế">Kinh nghiệm thực tế</h3>
+<ul>
+<li>Viết script Unity: Camera follow, Death screen, UI logic</li>
+<li>Xây dựng ứng dụng chat đơn giản bằng Java Socket</li>
+<li>Tự học và hoàn thành các khóa Java Core, Java Network, JavaScript</li>
+</ul>
+<h3 id="mục-tiêu-2025-2026">Mục tiêu 2025-2026</h3>
+<ul>
+<li>Hoàn thiện portfolio bằng blog cá nhân này</li>
+<li>Đóng góp ít nhất 1 project open-source về mạng</li>
+<li>Xin thực tập / fresher Java Backend hoặc Fullstack</li>
+</ul>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:58723/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>phutd0212@gmail.com (Trần Phú)</author>
+      <guid>http://localhost:58723/blog/</guid>
+      <description>&lt;div style=&#34;text-align:center; padding:80px 20px; max-width:800px; margin:0 auto;&#34;&gt;
+  &lt;h1 style=&#34;font-size:3.2em; background: linear-gradient(90deg, var(--neon-color), var(--neon-color2)); -webkit-background-clip: text; color: transparent;&#34;&gt;
+    Blog Lập Trình
+  &lt;/h1&gt;
+  &lt;p style=&#34;font-size:1.4em; color:#ccc; margin:30px 0;&#34;&gt;
+    Java • JavaScript • Lập trình mạng • Mini project
+  &lt;/p&gt;
+  &lt;hr style=&#34;max-width:300px; margin:40px auto; border-color: var(--neon-color);&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}}
+{{ if not (where site.RegularPages &amp;ldquo;Section&amp;rdquo; &amp;ldquo;blog&amp;rdquo;) }}&lt;/p&gt;
+&lt;div style=&#34;text-align:center; padding:60px 20px; color:#aaa;&#34;&gt;
+  &lt;p style=&#34;font-size:1.3em;&#34;&gt;Blog đang được mình chuẩn bị nội dung kỹ lưỡng&lt;/p&gt;
+  &lt;p&gt;Sắp tới sẽ có &lt;strong&gt;hơn 12 bài chi tiết&lt;/strong&gt; về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<div style="text-align:center; padding:80px 20px; max-width:800px; margin:0 auto;">
+  <h1 style="font-size:3.2em; background: linear-gradient(90deg, var(--neon-color), var(--neon-color2)); -webkit-background-clip: text; color: transparent;">
+    Blog Lập Trình
+  </h1>
+  <p style="font-size:1.4em; color:#ccc; margin:30px 0;">
+    Java • JavaScript • Lập trình mạng • Mini project
+  </p>
+  <hr style="max-width:300px; margin:40px auto; border-color: var(--neon-color);">
+</div>
+<p>{{/* Khi chưa có bài viết nào sẽ hiện thông báo đẹp */}}
+{{ if not (where site.RegularPages &ldquo;Section&rdquo; &ldquo;blog&rdquo;) }}</p>
+<div style="text-align:center; padding:60px 20px; color:#aaa;">
+  <p style="font-size:1.3em;">Blog đang được mình chuẩn bị nội dung kỹ lưỡng</p>
+  <p>Sắp tới sẽ có <strong>hơn 12 bài chi tiết</strong> về Java IO, đa luồng, Socket, JavaScript DOM, Async/Await, mini project thực tế…</p>
+  <p style="margin-top:30px;"><em>Quay lại sau vài ngày nhé!</em></p>
+</div>
+{{ end }}]]></content:encoded>
+    </item>
   </channel>
 </rss>

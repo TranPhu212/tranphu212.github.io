@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div style="max-width:1000px; margin:0 auto; padding:40px 20px; min-height:70vh;">
+    {{ .Content }}
+
+    {{ if (where site.RegularPages "Section" "blog") }}
+      <div style="margin-top:60px;">
+        {{ range where site.RegularPages "Section" "blog" }}
+          <article style="background:rgba(0,234,255,.06); padding:28px; margin:30px 0; border-radius:16px; border:1px solid rgba(0,234,255,.2);">
+            <time style="color:var(--neon-color); font-weight:600;">{{ .Date.Format "02-01-2006" }}</time>
+            <h2 style="margin:12px 0; font-size:2em;">
+              <a href="{{ .RelPermalink }}" style="color:#fff; text-decoration:none;">
+                {{ .Title }}
+              </a>
+            </h2>
+            {{ with .Description }}<p style="color:#bbb; font-size:1.1em;">{{ . }}</p>{{ end }}
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

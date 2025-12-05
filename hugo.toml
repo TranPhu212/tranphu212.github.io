@@ -55,7 +55,7 @@ weight = 10
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "/blog/"
+url = "/blog"
 weight = 20
 [[menu.main]]
 identifier = "about"

@@ -1,0 +1,77 @@
+# Basic config
+baseURL = "https://tranphu212.github.io"
+theme = "hugo-simple"
+defaultContentLanguage = "vi"
+languageCode = "vi-VN"
+title = "Blog Cá Nhân - Lập Trình Mạng"
+copyright = "© 2024 Trần Phú"
+mainSections = ["blog"]
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# https://github.com/gohugoio/hugo/issues/12152
+capitalizeListTitles = false
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+blog = "/:slugorcontentbasename/"
+tags = "/blog/:slug"
+
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "catppuccin-mocha"
+
+[params]
+title = "Blog Lập Trình Mạng"
+description = "Chia sẻ kiến thức Java, JavaScript và lập trình mạng"
+favicon = "images/favicon.png"
+dateFormat = "02-01-2024"
+hideMadeWithLine = true
+hideRSSLink = false
+
+[params.author]
+name = "Trần Phú"
+email = "phutd0212@gmail.com"
+fediverse = ""
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 20
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+[services.rss]
+limit = 42
+
+[pagination]
+pagerSize = 16
+
+[outputs]
+# Generate RSS for home only.
+home = ["HTML", "RSS", "JSON"]
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]
